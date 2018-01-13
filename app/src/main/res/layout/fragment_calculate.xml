@@ -13,6 +13,41 @@
 
 
     <!--Content-->
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="#b4ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
 
-</LinearLayout>
+    <!--Many-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <!--Icon-->
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_action_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--TextField-->
+    <EditText
+        android:hint="USD"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <!--Calculate-->
+        <Button
+            android:text="Calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    </LinearLayout>
